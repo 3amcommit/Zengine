@@ -1,68 +1,89 @@
 package Zengine;
 
-import com.sun.istack.internal.Nullable;
+import Zengine.components.Camera;
+import Zengine.components.Collider;
+import Zengine.components.Controllable;
 
 import javax.swing.JPanel;
-import java.awt.Graphics;
-import java.util.ArrayList;
+import java.awt.*;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Level extends JPanel {
-
-    private Camera mainCamera;
     private Game game;
-    private List<Moveable> movers;
-    private List<Drawable> drawables;
-    int height = 0, width = 0;
+    private Dimension dimension;
+    private Camera mainCamera;
+    private List<Zengine.components.Graphics> drawables;
+    private List<GameObject> gameObjects;
+    private List<GameObject> controllables;
+    public List<Collider> colliders;
 
-    Level(Game game) {
+    public Level(Game game) {
         this.game = game;
-        this.mainCamera = new Camera(game.width, game.height, this);
-        movers = new ArrayList<>();
-        drawables = new ArrayList<>();
-        movers.add(mainCamera);
-        game.addKeyListener(mainCamera);
+        drawables = new LinkedList<>();
+        gameObjects = new LinkedList<>();
+        drawables = new LinkedList<>();
+        controllables = new LinkedList<>();
+        colliders = new LinkedList<>();
 
     }
 
-    public Level setBounds( int width, int height) {
-        this.height = height;
-        this.width = width;
+    public Level setBounds(int width, int height) {
+        this.dimension = new Dimension(width, height);
         return this;
-    }
-
-    public Camera getMainCamera() {
-        return mainCamera;
     }
 
     public Level add(GameObject gm) {
-        if (gm instanceof Drawable) {
-            drawables.add((Drawable) gm);
+        gm.setLevel(this);
+        gm.getComponents().forEach((key, val) -> {
+            if (key == Zengine.components.Component.GRAPHICS) {
+                drawables.add((Zengine.components.Graphics) val);
+            }
+
+            if(key == Zengine.components.Component.COLLIDER){
+                colliders.add((Collider) val);
+            }
+        });
+        if(gm instanceof Controllable){
+            controllables.add(gm);
+            game.addKeyListener((Controllable)gm);
         }
-        if(gm instanceof Moveable) {
-            movers.add((Moveable) gm);
-        }
-        if(gm instanceof Controlable){
-            game.addKeyListener((Controlable) gm);
-        }
+
+        gameObjects.add(gm);
+
         return this;
     }
+
+    public Level setCamera(GameObject camera) {
+        add(camera);
+        mainCamera = (Camera) camera.getComponent(Zengine.components.Component.CAMERA);
+        mainCamera.setViewPort(game.getDimension());
+        return this;
+    }
+
+
+    public void start(){
+        game.setVisible(true);
+    }
+
 
     @Override
     protected void paintComponent(Graphics g) {
         try {
-            Thread.sleep(1000 / game.fps * 2);
-            g.clearRect(0, 0, game.width, game.height);
-            movers.forEach(Moveable::update);
-            drawAll(g);
-            repaint();
+            Thread.sleep(1000 / game.fps);
+            if (mainCamera != null) {
+                g.clearRect(0,0,(int)dimension.getWidth(),(int)dimension.getHeight());
+                mainLoop(g);
+                repaint();
+            }
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }
 
-    private void drawAll(Graphics g) {
-        drawables.forEach(aStatic -> aStatic.draw(g, mainCamera));
-
+    void mainLoop(Graphics g) {
+        controllables.forEach(Controllable::callInput);
+        gameObjects.forEach(GameObject::fullupdate);
+        drawables.forEach(d -> d.draw(g, mainCamera));
     }
 }

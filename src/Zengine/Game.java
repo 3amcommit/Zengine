@@ -5,14 +5,12 @@ import java.awt.Dimension;
 
 public class Game extends JFrame {
 
-    private String gameTitle;
-    protected int width, height, fps;
+    protected int fps;
+    protected Dimension dimension;
     private Level level;
 
     public Game(String gameTitle, int width, int height,int fps) {
-        this.gameTitle = gameTitle;
-        this.height = height;
-        this.width = width;
+        this.dimension = new Dimension(width, height);
         this.fps = fps;
         this.level = new Level(this);
 
@@ -20,7 +18,10 @@ public class Game extends JFrame {
         setTitle(gameTitle);
         setSize(new Dimension(width, height));
         setResizable(false);
-        setVisible(true);
+    }
+
+    public Dimension getDimension() {
+        return dimension;
     }
 
     public Level getLevel() {
