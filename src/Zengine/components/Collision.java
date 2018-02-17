@@ -1,9 +1,8 @@
 package Zengine.components;
 
-import Zengine.GameObject;
-
 public class Collision {
-    Collider a, b;
+
+    private Collider a, b;
 
     public Collision(Collider a, Collider b) {
         this.a = a;

@@ -20,7 +20,6 @@ public class Collider extends Component implements Collidable {
 
     @Override
     public boolean checkCollision(Collider other) {
-
         //from https://developer.mozilla.org/kab/docs/Games/Techniques/2D_collision_detection
         if (transform.x < transform.x + other.dimension.width &&
                 transform.x + dimension.width > other.transform.x &&
