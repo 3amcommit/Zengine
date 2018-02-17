@@ -1,34 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8ce64c2-22af-472a-9a88-1af03ee014c6" name="Default" comment="add tests, structure, Readme">
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/Zengine/GameObjectTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/Zengine/GameTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/Zengine/LevelTest.java" />
+    <list default="true" id="651eae65-8337-4126-b240-1645765e870d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Root.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Zario/Zario.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Zario/src/Camera.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Zario/src/Main.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Zario/src/Player.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Zario/src/Static.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/.idea/.name" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/.idea/artifacts/zengine_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/.idea/dictionaries/digized.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/META-INF/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/src/Zengine/Game.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/src/Zengine/GameObject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/src/Zengine/Level.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/src/Zengine/components/Camera.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/src/Zengine/components/Collidable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/src/Zengine/components/Collider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/src/Zengine/components/Collision.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/src/Zengine/components/Component.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/src/Zengine/components/Controllable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/src/Zengine/components/Drawable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/src/Zengine/components/EasyMovement.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/src/Zengine/components/Graphics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/src/Zengine/components/Transform.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/src/Zengine/components/Updatable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/src/Zengine/components/Vector2D.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/tests/Zengine/GameObjectTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/tests/Zengine/GameTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/tests/Zengine/LevelTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zengine/zengine.iml" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/zengine/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Camera.java" afterPath="$PROJECT_DIR$/src/Zario/Camera.java" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Zario/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/Player" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" afterPath="$PROJECT_DIR$/src/Zario/Player.java" />
-      <change beforePath="$PROJECT_DIR$/src/Static.java" afterPath="$PROJECT_DIR$/src/Zario/Static.java" />
-      <change beforePath="$PROJECT_DIR$/src/Zengine/Game.java" afterPath="$PROJECT_DIR$/src/Zengine/Game.java" />
-      <change beforePath="$PROJECT_DIR$/src/Zengine/GameObject.java" afterPath="$PROJECT_DIR$/src/Zengine/GameObject.java" />
-      <change beforePath="$PROJECT_DIR$/src/Zengine/Level.java" afterPath="$PROJECT_DIR$/src/Zengine/Level.java" />
-      <change beforePath="$PROJECT_DIR$/src/Zengine/components/Camera.java" afterPath="$PROJECT_DIR$/src/Zengine/components/Camera.java" />
-      <change beforePath="$PROJECT_DIR$/src/Zengine/components/Collider.java" afterPath="$PROJECT_DIR$/src/Zengine/components/Collider.java" />
-      <change beforePath="$PROJECT_DIR$/src/Zengine/components/Collision.java" afterPath="$PROJECT_DIR$/src/Zengine/components/Collision.java" />
-      <change beforePath="$PROJECT_DIR$/src/Zengine/components/EasyMovement.java" afterPath="$PROJECT_DIR$/src/Zengine/components/EasyMovement.java" />
-      <change beforePath="$PROJECT_DIR$/src/Zengine/components/Transform.java" afterPath="$PROJECT_DIR$/src/Zengine/components/Transform.java" />
-      <change beforePath="$PROJECT_DIR$/src/Zengine/old/Camera.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Zengine/old/Collidable.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Zengine/old/Collision.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Zengine/old/Drawable.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Zengine/old/Level.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Zengine/old/Moveable.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Zengine/old/Static.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zengine.iml" afterPath="$PROJECT_DIR$/zengine.iml" />
+      <change beforePath="$PROJECT_DIR$/src/Zario/Camera.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zario/Main.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zario/Player.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zario/Static.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zengine/Game.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zengine/GameObject.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zengine/Level.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zengine/components/Camera.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zengine/components/Collidable.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zengine/components/Collider.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zengine/components/Collision.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zengine/components/Component.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zengine/components/Controllable.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zengine/components/Drawable.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zengine/components/EasyMovement.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zengine/components/Graphics.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zengine/components/Transform.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zengine/components/Updatable.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Zengine/components/Vector2D.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/Zengine/GameObjectTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/Zengine/GameTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/Zengine/LevelTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zengine.iml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,66 +76,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Zengine$Zengine_in_zengine.coverage" NAME="Zengine in zengine Coverage Results" MODIFIED="1518851590371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Zengine$Zengine__.coverage" NAME="Zengine.* Coverage Results" MODIFIED="1518858992066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Zengine.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Zengine$All_in_zengine.coverage" NAME="All in zengine Coverage Results" MODIFIED="1518852389685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Zengine$All_in_zengine__1_.coverage" NAME="All in zengine (1) Coverage Results" MODIFIED="1518852196585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Zengine$Tests.coverage" NAME="Tests Coverage Results" MODIFIED="1518852644381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Zengine.*</FILTER>
-    </SUITE>
-  </component>
-  <component name="ExportToHTMLSettings">
-    <option name="OPEN_IN_BROWSER" value="true" />
-    <option name="OUTPUT_DIRECTORY" value="C:\dev\zengine\out" />
+    <SUITE FILE_PATH="coverage/Zengine$All_in_zengine.coverage" NAME="All in zengine Coverage Results" MODIFIED="1518858770992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Zario/Main.java">
+        <entry file="file://$PROJECT_DIR$/Zario/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Camera.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Zengine/components/Camera.java">
+      <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zengine/tests/Zengine/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Zario/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameObjectTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Zengine/GameObjectTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="42" column="20" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
               <folding>
-                <element signature="e#1481#1482#0" expanded="true" />
-                <element signature="e#1516#1517#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Zengine/Game.java">
+        <entry file="file://$PROJECT_DIR$/zengine/src/Zengine/Game.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -107,92 +115,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EasyMovement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Zengine/components/EasyMovement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-              <folding>
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Component.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Zengine/components/Component.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zengine/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Zengine/GameObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-578">
-              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1320#1321#0" expanded="true" />
-                <element signature="e#1354#1355#0" expanded="true" />
-                <element signature="e#1477#1478#0" expanded="true" />
-                <element signature="e#1509#1510#0" expanded="true" />
-                <element signature="e#2243#2244#0" expanded="true" />
-                <element signature="e#2286#2287#0" expanded="true" />
-                <element signature="e#2436#2437#0" expanded="true" />
-                <element signature="e#2478#2479#0" expanded="true" />
-                <element signature="e#2662#2663#0" expanded="true" />
-                <element signature="e#2695#2696#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collidable.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Zengine/components/Collidable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="JUnit4 Test Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>u</find>
-      <find>start</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>other</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -205,63 +138,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Zengine.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/Zengine.java" />
-        <option value="$PROJECT_DIR$/src/Level.java" />
-        <option value="$PROJECT_DIR$/src/Game.java" />
-        <option value="$PROJECT_DIR$/src/Zengine2/Level.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/Active.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/MoveAble.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/Drawable.java" />
-        <option value="$PROJECT_DIR$/src/Pla.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/Zengine/Controlable.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/Colliders.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/Static.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/Controllable.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/Collision.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/Transform.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/Collidable.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/Camera.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/Moveable.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/old/Game.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/old/Static.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/components/Drawable.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/components/Updatable.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/components/Controllable.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/components/Vector2D.java" />
-        <option value="$PROJECT_DIR$/src/Static.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/components/Graphics.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/Zengine/components/Component.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/components/Collision.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/GameObjectTest.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/tests/Dummy.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/Game.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/tests/GameTest.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/components/Collider.java" />
-        <option value="$PROJECT_DIR$/src/Camera.java" />
-        <option value="$PROJECT_DIR$/src/Player.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/tests/GameObjectTest.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/tests/LevelTest.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/components/Transform.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/game/Level.java" />
-        <option value="$PROJECT_DIR$/tests/GameObjectTest.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/Level.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/components/Camera.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/components/EasyMovement.java" />
-        <option value="$PROJECT_DIR$/src/Zario/Player.java" />
-        <option value="$PROJECT_DIR$/tests/Zengine/GameObjectTest.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/GameObject.java" />
-        <option value="$PROJECT_DIR$/src/Zengine/components/Collidable.java" />
+        <option value="$PROJECT_DIR$/zengine/tests/Zengine/GameTest.java" />
       </list>
     </option>
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="GameObjectTest" />
-    </enabled-run-configurations>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -275,7 +154,6 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -291,73 +169,51 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Zengine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zengine" type="462c0819:PsiDirectoryNode" />
+              <item name="Zengine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Zengine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zengine" type="462c0819:PsiDirectoryNode" />
+              <item name="Zengine" type="462c0819:PsiDirectoryNode" />
+              <item name="Zario" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zengine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zengine" type="462c0819:PsiDirectoryNode" />
+              <item name="Zario" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Zengine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zengine" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Zengine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zengine" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="Zengine" type="462c0819:PsiDirectoryNode" />
+              <item name="zengine" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.scopes" />
-    <property name="SearchEverywhereHistoryKey" value="Level&#9;FILE&#9;file://C:/dev/zengine/src/Zengine/Level.java&#10;Game&#9;FILE&#9;file://C:/dev/zengine/src/Zengine/GameObject.java" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
-    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
-    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="zengine" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Zario" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="Zengine.tests" />
-      <recent name="Zengine" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="Zengine" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\dev\zengine\out" />
-      <recent name="C:\dev\zengine\src\Zario" />
-      <recent name="C:\dev\zengine" />
-      <recent name="C:\dev\zengine\src\Zengine\components" />
+      <recent name="C:\dev\Zengine\zengine" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -372,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tests">
+  <component name="RunManager" selected="Application.Zario">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -380,14 +236,9 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Zario" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Zario.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Zario.Main" />
+    <configuration name="Zario" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -396,7 +247,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="zengine" />
+      <module name="Zario" />
       <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -413,8 +264,8 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="Tests" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+    <configuration name="Zengine.*" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" track_test_folders="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Zengine.*" />
           <option name="ENABLED" value="true" />
@@ -423,7 +274,7 @@
       <module name="zengine" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="pattern" />
@@ -436,7 +287,6 @@
         <value defaultName="singleModule" />
       </option>
       <envs />
-      <dir value="$PROJECT_DIR$/tests" />
       <patterns>
         <pattern testClass="Zengine.*" />
       </patterns>
@@ -460,6 +310,18 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Zengine" />
+      <envs />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -499,12 +361,12 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Tests" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Zario" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Zario" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Zengine.*" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Zario" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Zengine.*" />
       </list>
     </recent_temporary>
   </component>
@@ -513,99 +375,78 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b8ce64c2-22af-472a-9a88-1af03ee014c6" name="Default" comment="" />
-      <created>1518254895396</created>
+      <changelist id="651eae65-8337-4126-b240-1645765e870d" name="Default" comment="" />
+      <created>1518858416919</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1518254895396</updated>
-      <workItem from="1518254899236" duration="9980000" />
-      <workItem from="1518310081605" duration="30181000" />
-      <workItem from="1518402878978" duration="22413000" />
-      <workItem from="1518463796326" duration="3478000" />
-      <workItem from="1518734042689" duration="237000" />
-      <workItem from="1518841976735" duration="12002000" />
+      <updated>1518858416919</updated>
+      <workItem from="1518858418169" duration="638000" />
     </task>
-    <task id="LOCAL-00001" summary="Zengine init">
-      <created>1518327857828</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1518327857828</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_zengine - 2018.02.17 at 02h 26m 31s.xml">
+    <history-entry file="All_in_zengine - 2018.02.17 at 04h 12m 52s.xml">
       <configuration name="All in zengine" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.02.17 at 02h 27m 25s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Zengine__ - 2018.02.17 at 04h 13m 32s.xml">
+      <configuration name="Zengine.*" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.02.17 at 02h 27m 33s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Zengine__ - 2018.02.17 at 04h 13m 36s.xml">
+      <configuration name="Zengine.*" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.02.17 at 02h 28m 59s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Zengine__ - 2018.02.17 at 04h 14m 17s.xml">
+      <configuration name="Zengine.*" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.02.17 at 02h 29m 03s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Zengine__ - 2018.02.17 at 04h 14m 19s.xml">
+      <configuration name="Zengine.*" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.02.17 at 02h 30m 01s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Zengine__ - 2018.02.17 at 04h 14m 43s.xml">
+      <configuration name="Zengine.*" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.02.17 at 02h 30m 07s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Zengine__ - 2018.02.17 at 04h 14m 47s.xml">
+      <configuration name="Zengine.*" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.02.17 at 02h 30m 42s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Zengine__ - 2018.02.17 at 04h 15m 51s.xml">
+      <configuration name="Zengine.*" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.02.17 at 02h 30m 45s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests - 2018.02.17 at 02h 36m 45s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Zengine__ - 2018.02.17 at 04h 16m 33s.xml">
+      <configuration name="Zengine.*" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78291000" />
+    <option name="totallyTimeSpent" value="638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39872748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767764" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3223754" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35416666" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1984375" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,626 +455,49 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Zengine init" />
-    <MESSAGE value="add tests, structure, Readme, and docs" />
-    <MESSAGE value="add tests, structure, Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tests, structure, Readme" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Zengine/GameObject.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="6" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>k instanceof EasyMovement</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Zengine/old/Drawable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/old/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/old/Camera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/old/Moveable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/javax/swing/JComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="963" column="16" lean-forward="false" selection-start-line="963" selection-start-column="16" selection-end-line="963" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/components/Constants.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Override.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="50" column="18" lean-forward="false" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/old/Static.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/function/BiConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zario/Player">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="1670" column="25" lean-forward="false" selection-start-line="1670" selection-start-column="25" selection-end-line="1670" selection-end-column="25" />
-          <folding>
-            <element signature="e#64310#64311#0" expanded="false" />
-            <element signature="e#64355#64356#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zario/Static.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/old/Collidable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/old/Collision.java">
+    <entry file="file://$PROJECT_DIR$/Zario/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="25" selection-end-column="21" />
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/awt/Dimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="53" column="13" lean-forward="false" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-          <folding>
-            <element signature="e#3137#3138#0" expanded="false" />
-            <element signature="e#3166#3167#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="153">
-            <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/components/Collision.java">
+    <entry file="file://$PROJECT_DIR$/zengine/tests/Zengine/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/components/Vector2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-          <folding>
-            <element signature="e#248#249#0" expanded="false" />
-            <element signature="e#272#273#0" expanded="false" />
-            <element signature="e#299#300#0" expanded="false" />
-            <element signature="e#323#324#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/components/Updatable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/components/Drawable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/Zengine.components">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Zengine.components</OriginalElement>
-          <nodes>
-            <node x="55.5" y="276.0">Zengine.components.Graphics</node>
-            <node x="988.5" y="66.5">Zengine.components.Updatable</node>
-            <node x="0.0" y="517.0">Zengine.components.Controllable</node>
-            <node x="479.49999999999994" y="276.5">Zengine.components.Transform</node>
-            <node x="571.0" y="0.0">Zengine.components.Component</node>
-            <node x="1201.75" y="66.5">Zengine.components.Collidable</node>
-            <node x="0.0" y="66.5">Zengine.components.Drawable</node>
-            <node x="260.0" y="517.0">Zengine.components.Collision</node>
-            <node x="1141.5" y="298.5">Zengine.components.Collider</node>
-            <node x="297.49999999999994" y="265.5">Zengine.components.Vector2D</node>
-            <node x="869.5" y="244.0">Zengine.components.EasyMovement</node>
-            <node x="674.5" y="277.0">Zengine.components.Camera</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="Zengine.components.Transform" target="Zengine.components.Component">
-              <point x="0.0" y="-81.5" />
-              <point x="567.0" y="224.0" />
-              <point x="648.9166666666665" y="224.0" />
-              <point x="-15.583333333333371" y="92.0" />
-            </edge>
-            <edge source="Zengine.components.Collider" target="Zengine.components.Collidable">
-              <point x="60.25000000000006" y="-59.5" />
-              <point x="0.0" y="25.5" />
-            </edge>
-            <edge source="Zengine.components.Graphics" target="Zengine.components.Component">
-              <point x="55.5" y="-82.0" />
-              <point x="222.0" y="204.0" />
-              <point x="586.5833333333333" y="204.0" />
-              <point x="-77.91666666666663" y="92.0" />
-            </edge>
-            <edge source="Zengine.components.Collider" target="Zengine.components.Component">
-              <point x="-60.24999999999994" y="-59.5" />
-              <point x="1201.75" y="204.0" />
-              <point x="742.4166666666667" y="204.0" />
-              <point x="77.91666666666674" y="92.0" />
-            </edge>
-            <edge source="Zengine.components.Graphics" target="Zengine.components.Drawable">
-              <point x="-55.5" y="-82.0" />
-              <point x="0.0" y="25.5" />
-            </edge>
-            <edge source="Zengine.components.Vector2D" target="Zengine.components.Component">
-              <point x="0.0" y="-92.5" />
-              <point x="378.49999999999994" y="214.0" />
-              <point x="617.75" y="214.0" />
-              <point x="-46.75" y="92.0" />
-            </edge>
-            <edge source="Zengine.components.EasyMovement" target="Zengine.components.Updatable">
-              <point x="63.0" y="-114.0" />
-              <point x="0.0" y="25.5" />
-            </edge>
-            <edge source="Zengine.components.Camera" target="Zengine.components.Component">
-              <point x="0.0" y="-81.0" />
-              <point x="762.0" y="224.0" />
-              <point x="680.0833333333333" y="224.0" />
-              <point x="15.583333333333371" y="92.0" />
-            </edge>
-            <edge source="Zengine.components.EasyMovement" target="Zengine.components.Component">
-              <point x="-63.0" y="-114.0" />
-              <point x="932.5" y="214.0" />
-              <point x="711.25" y="214.0" />
-              <point x="46.75" y="92.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="101.78497758848684" y="196.82728343352892" />
-          <SelectedNodes>
-            <node>Zengine.components.Graphics</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Properties</Category>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/GameObjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="71" column="23" lean-forward="false" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://Flash/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Flash</ID>
-          <OriginalElement />
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="445.0" y="293.5" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>PRIVATE</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="false" />
-            <element signature="e#10148#10149#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/tests/Dummy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Zengine/GameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-          <folding>
-            <element signature="e#467#468#0" expanded="false" />
-            <element signature="e#540#541#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/components/Collider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <element signature="e#189#190#0" expanded="false" />
-            <element signature="e#250#251#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zario/Camera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Zengine/LevelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/components/Transform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/components/Controllable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/components/Graphics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="70" lean-forward="false" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="" y="">com</node>
-            <node x="" y="">netscape</node>
-            <node x="" y="">sun</node>
-            <node x="" y="">GameObjectTest</node>
-            <node x="" y="">Zengine.components.Graphics</node>
-            <node x="" y="">groovyjarjarasm</node>
-            <node x="" y="">Zario</node>
-            <node x="" y="">java</node>
-            <node x="" y="">Zengine.components.Transform</node>
-            <node x="" y="">javax</node>
-            <node x="" y="">Zengine.components.Drawable</node>
-            <node x="" y="">Zengine.components.Collision</node>
-            <node x="" y="">javafx</node>
-            <node x="" y="">Zengine.GameObject</node>
-            <node x="" y="">junit</node>
-            <node x="" y="">Zengine.components.Controllable</node>
-            <node x="" y="">oracle</node>
-            <node x="" y="">GameTest</node>
-            <node x="" y="">org</node>
-            <node x="" y="">Zengine.components.Collider</node>
-            <node x="" y="">LevelTest</node>
-            <node x="" y="">Zengine.components.EasyMovement</node>
-            <node x="" y="">Zengine.components.Camera</node>
-            <node x="" y="">Zengine.Level</node>
-            <node x="" y="">META-INF</node>
-            <node x="" y="">jdk</node>
-            <node x="" y="">Zengine.components.Updatable</node>
-            <node x="" y="">groovy</node>
-            <node x="" y="">Zengine.components.Component</node>
-            <node x="" y="">Zengine.Game</node>
-            <node x="" y="">Zengine.components.Collidable</node>
-            <node x="" y="">groovyjarjarcommonscli</node>
-            <node x="" y="">Zengine.components.Vector2D</node>
-            <node x="" y="">groovyjarjarantlr</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="281.5" y="239.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>public</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/Zengine">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Zengine</OriginalElement>
-          <nodes>
-            <node x="" y="">Zengine.components.Controllable</node>
-            <node x="" y="">Zengine.components.Collider</node>
-            <node x="" y="">Zengine.components.EasyMovement</node>
-            <node x="" y="">Zengine.components.Camera</node>
-            <node x="" y="">Zengine.Level</node>
-            <node x="" y="">Zengine.components.Graphics</node>
-            <node x="" y="">Zengine.components.Updatable</node>
-            <node x="" y="">Zengine.components.Transform</node>
-            <node x="" y="">Zengine.components.Component</node>
-            <node x="" y="">Zengine.Game</node>
-            <node x="" y="">Zengine.components.Collidable</node>
-            <node x="" y="">Zengine.components.Drawable</node>
-            <node x="" y="">Zengine.components.Collision</node>
-            <node x="" y="">Zengine.components.Vector2D</node>
-            <node x="" y="">Zengine.GameObject</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="318.5" y="91.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>public</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="70" column="10" lean-forward="false" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
-          <folding>
-            <element signature="e#2360#2361#0" expanded="true" />
-            <element signature="e#2397#2398#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/digized.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3519">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zario/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/components/EasyMovement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-          <folding>
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/components/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Zengine/GameObjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="42" column="20" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-          <folding>
-            <element signature="e#1481#1482#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/components/Camera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/GameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-578">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1320#1321#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
-            <element signature="e#1477#1478#0" expanded="true" />
-            <element signature="e#1509#1510#0" expanded="true" />
-            <element signature="e#2243#2244#0" expanded="true" />
-            <element signature="e#2286#2287#0" expanded="true" />
-            <element signature="e#2436#2437#0" expanded="true" />
-            <element signature="e#2478#2479#0" expanded="true" />
-            <element signature="e#2662#2663#0" expanded="true" />
-            <element signature="e#2695#2696#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zario/Player.java">
+    <entry file="jar://$PROJECT_DIR$/zengine/out/artifacts/zengine_jar/zengine.jar!/Zengine/Game.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zengine/components/Collidable.java">
+    <entry file="file://$PROJECT_DIR$/zengine/src/Zengine/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zengine/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1290,12 +554,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>zengine</last-edited>
+          <last-edited>Zario</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1315,18 +578,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <last-edited>Unnamed</last-edited>
+          <last-edited>zengine</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

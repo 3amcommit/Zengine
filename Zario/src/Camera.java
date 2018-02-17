@@ -1,5 +1,3 @@
-package Zario;
-
 import Zengine.GameObject;
 import Zengine.components.Controllable;
 import Zengine.components.EasyMovement;

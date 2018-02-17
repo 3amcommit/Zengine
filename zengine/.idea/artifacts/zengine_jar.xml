@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="zengine:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/zengine_jar</output-path>
+    <root id="archive" name="zengine.jar">
+      <element id="module-output" name="zengine" />
+    </root>
+  </artifact>
+</component>

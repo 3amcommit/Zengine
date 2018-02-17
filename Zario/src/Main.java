@@ -1,5 +1,3 @@
-package Zario;
-
 import Zengine.Game;
 import Zengine.Level;
 

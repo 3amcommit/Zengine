@@ -1,5 +1,3 @@
-package Zario;
-
 import Zengine.GameObject;
 import Zengine.components.*;
 import Zengine.components.Component;
